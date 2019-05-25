@@ -1,1 +1,2 @@
 # geojsonDownloader
+从阿里云服务器下载中国的geojson
