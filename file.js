@@ -2,7 +2,6 @@ var request = require("request");
 var fs = require("fs");
 const mainUrl = "https://geo.datav.aliyun.com/areas/bound/";
 
-//-http://datav.aliyun.com/tools/atlas
 for(var i = 0;i<=18;i++){
 	var dataUrl = mainUrl+(340000+i*100)+"_full.json";
 	var name = (340000+i*100).toString();
